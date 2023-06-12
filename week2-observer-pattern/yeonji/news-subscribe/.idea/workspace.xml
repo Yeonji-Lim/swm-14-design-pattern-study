@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb6daac6-264d-44a5-bb60-79f733c043a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/description.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-subscribe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmailSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NewsPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SMSSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week1-strategy-pattern/yeonji/soccer-robot/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week1-strategy-pattern/yeonji/soccer-robot/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week1-strategy-pattern/yeonji/soccer-robot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week1-strategy-pattern/yeonji/soccer-robot/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,6 +56,8 @@
       <workItem from="1685975433224" duration="615000" />
       <workItem from="1685976666315" duration="1874000" />
       <workItem from="1685978901421" duration="138000" />
+      <workItem from="1686024076059" duration="1628000" />
+      <workItem from="1686232783694" duration="66000" />
     </task>
     <servers />
   </component>

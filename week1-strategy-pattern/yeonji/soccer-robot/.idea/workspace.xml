@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec603511-397e-4368-ac5e-8ada207be55d" name="Changes" comment="week1 전략 패턴 - 축구 경기 예시">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soccer-robot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlayStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoccerRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basicStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pushStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/throwStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trapStrategy.java" afterDir="false" />
-    </list>
+    <list default="true" id="ec603511-397e-4368-ac5e-8ada207be55d" name="Changes" comment="week1 전략 패턴 - 축구 경기 예시" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,6 +67,10 @@
       <updated>1685340837637</updated>
       <workItem from="1685340838806" duration="1196000" />
       <workItem from="1685343569807" duration="201000" />
+      <workItem from="1685344323638" duration="93000" />
+      <workItem from="1685372869360" duration="2000" />
+      <workItem from="1685419053658" duration="889000" />
+      <workItem from="1685433051723" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="week1 전략 패턴 - 축구 경기 예시">
       <created>1685341935043</created>
