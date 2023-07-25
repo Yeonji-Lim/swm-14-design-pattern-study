@@ -5,7 +5,7 @@ export default class BDirect extends DirectChatRoom {
     super();
   }
   public create(): void {
-    console.log("create : B개인 채팅방 생성");
+    console.log("\ncreate : B개인 채팅방 생성");
   }
   public sendMessage(user: string, msg: string): void {
     console.log(
