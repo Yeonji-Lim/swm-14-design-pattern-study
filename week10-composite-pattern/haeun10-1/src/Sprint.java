@@ -46,12 +46,15 @@ public class Sprint extends Story{
 
     public void printStories() {
         for (Story story : stories) {
-            System.out.println("스토리 이름: " + story.getName() + " " + story.getUsedPoints() + "/" + story.getStartPoints() + " " + story.status());
+            System.out.println("스토리 : " + story.getName() + " " + story.getUsedPoints() + "/" + story.getStartPoints() + " " + story.status());
         }
     }
 
     public void printSprint() {
-        System.out.println("스프린트 이름: " + getSprintName());
+        System.out.println("스프린트 이름: [" + getSprintName() + "]");
+        System.out.println("=======================");
+        printStories();
+        System.out.println("=======================");
         System.out.println("(소모 포인트/최초 추정치) = "
                 + getUsedPoints() + "/" + getStartPoints() + " " + status());
     }
