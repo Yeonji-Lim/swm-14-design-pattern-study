@@ -3,8 +3,6 @@ import java.util.List;
 
 public class Story extends Ticket {
     private List<Ticket> tickets = new ArrayList<>();
-    private double startPoints;
-    private double usedPoints;
     private final String name;
 
     public Story(String storyName) {
@@ -34,9 +32,9 @@ public class Story extends Ticket {
     }
 
     public String status() {
-        if (startPoints > getUsedPoints()) {
+        if (getStartPoints() > getUsedPoints()) {
             return "🔻";
-        } else if (startPoints == getUsedPoints()) {
+        } else if (getStartPoints() == getUsedPoints()) {
             return "🔹";
         } else {
             return "🔺";

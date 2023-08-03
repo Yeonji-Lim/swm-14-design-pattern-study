@@ -35,9 +35,9 @@ public class Sprint extends Story{
     }
 
     public String status() {
-        if (startPoints > getUsedPoints()) {
+        if (getStartPoints() > getUsedPoints()) {
             return "🔻";
-        } else if (startPoints == getUsedPoints()) {
+        } else if (getStartPoints() == getUsedPoints()) {
             return "🔹";
         } else {
             return "🔺";
