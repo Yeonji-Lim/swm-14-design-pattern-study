@@ -11,7 +11,7 @@ export default class Leaf extends Component {
     }
     public print(): string {
         console.log('(Leaf ' + this.name + ')');
-        return 'Leaf] ' + this.name;
+        return 'Leaf( ' + this.name;
     }
 
 }

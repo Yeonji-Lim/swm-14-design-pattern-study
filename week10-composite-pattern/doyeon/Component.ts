@@ -14,15 +14,10 @@ export default abstract class Component {
 
     public remove(component: Component): void { }
 
-    public getChild(index: number): Component | null {
-        return this.parent;
-    }
     public getName(): string | null {
         return null;
     }
-    public isComposite(): boolean {
-        return false;
-    }
+
 
     public abstract print(): string;
 }

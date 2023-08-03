@@ -11,13 +11,13 @@ console.log('');
 console.log('----- 아침과 저녁 메뉴 ---------');
 
 const tree = new Internal('오늘의 메뉴');
-const branch1 = new Internal('아침');
-branch1.add(new Leaf('우유'));
-branch1.add(new Leaf('토스트'));
-const branch2 = new Internal('저녁');
-branch2.add(new Leaf('치킨'));
-tree.add(branch1);
-tree.add(branch2);
+const internal1 = new Internal('아침');
+internal1.add(new Leaf('우유'));
+internal1.add(new Leaf('토스트'));
+const internal2 = new Internal('저녁');
+internal2.add(new Leaf('치킨'));
+tree.add(internal1);
+tree.add(internal2);
 tree.print();
 console.log('');
 
