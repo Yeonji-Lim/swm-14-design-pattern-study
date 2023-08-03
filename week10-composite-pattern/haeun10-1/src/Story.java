@@ -20,6 +20,9 @@ public class Story extends Ticket {
     public void removeTicket(Ticket ticket) {
         tickets.remove(ticket);
     }
+    public List<Ticket> getTickets() {
+        return tickets;
+    }
 
     @Override
     public double getStartPoints() {

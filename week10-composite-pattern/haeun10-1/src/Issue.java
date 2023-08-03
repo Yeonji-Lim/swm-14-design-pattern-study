@@ -9,6 +9,10 @@ public class Issue extends Ticket {
         this.usedPoints = usedPoints;
     }
 
+    public String getName() {
+        return issueName;
+    }
+
     @Override
     public double getStartPoints() {
         return startPoints;

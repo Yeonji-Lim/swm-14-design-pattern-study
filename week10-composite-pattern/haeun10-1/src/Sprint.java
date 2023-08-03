@@ -47,6 +47,10 @@ public class Sprint extends Story{
     public void printStories() {
         for (Story story : stories) {
             System.out.println("스토리 : " + story.getName() + " " + story.getUsedPoints() + "/" + story.getStartPoints() + " " + story.status());
+            System.out.println("--> 이슈 목록");
+            for (Ticket ticket : story.getTickets()) {
+                System.out.println("    이슈 : " + ticket.getName());
+            }
         }
     }
 
