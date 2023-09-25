@@ -37,6 +37,5 @@ public class Main {
         String yamlToJson = adapterYAML.getJson(yaml);
         System.out.println(yamlToJson);
 
-
     }
 }
