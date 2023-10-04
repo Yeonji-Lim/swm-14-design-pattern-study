@@ -3,7 +3,7 @@ public class ProxyPageInfo implements PageInfo {
 	private final RealPageInfo realPageInfo;
 
 	public ProxyPageInfo(RealPageInfo realPageInfo) {
-		this.realPageInfo = new RealPageInfo();
+		this.realPageInfo = realPageInfo;
 	}
 	@Override
 	public String getInfo() {
